@@ -6,7 +6,7 @@
 # Installs the Plutonium module if it is not yet installed, and then patches the
 # Foundry server to call the Plutonium backend.
 
-MAIN_JS="${FOUNDRY_HOME}/resources/app/main.js"
+MAIN_JS="${FOUNDRY_HOME}/resources/app/main.mjs"
 MODULE_BACKEND_JS="/data/Data/modules/plutonium/server/${FOUNDRY_VERSION:0:3}.x/plutonium-backend.mjs"
 MODULE_DIR="/data/Data/modules"
 MODULE_URL="https://get.5e.tools/plutonium/plutonium.zip"
